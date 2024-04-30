@@ -1,7 +1,7 @@
 # Chromosome shattering at the origin of Clitellata
 
 ## 1. Description
-This repository contains the scripts and files needed to reproduce the analysis in: *A punctuated burst of massive genomic rearrangements by chromosome shattering  and the origin of non-marine annelids*.
+This repository contains the scripts and files needed to reproduce the analysis in: Vargas-Chávez et al. 2024. *A punctuated burst of massive genomic rearrangements by chromosome shattering  and the origin of non-marine annelids*. (under review)
 
 ## 2. Directories in this repository
 - **Composite_gene_analyses:** This directory contains the scripts needed to idenfity composite genes.
@@ -12,4 +12,3 @@ This repository contains the scripts and files needed to reproduce the analysis 
 - **Transposable_element_satellite_DNA_and_centromere_identification_and_analysis:** This directory contains the scripts needed to identify the centromeres using the transposable element coverage and to plot them along with the tandem repeats coverage along the genome.
 - **Whole_genome_alignment_and_whole_genome_duplication_analysis:** This directory contains the output of halStats for the whole genome alignment using progressiveCactus.
 
-## 3. Additional information
