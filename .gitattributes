@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+HMED.mod.trinity.fasta filter=lfs diff=lfs merge=lfs -text
+HMED_transdecoder.filtered.cds filter=lfs diff=lfs merge=lfs -text
+Superfamilies_RModeler.RData filter=lfs diff=lfs merge=lfs -text
