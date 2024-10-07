@@ -1,0 +1,39 @@
+header	column position	Species	Phylum     	Class	Order	Family	Acronym	Habitat
+name	1							
+LROB1	2	Leitoscoloplos robustus	Annelida	Polychaeta'	Orbiniida	Orbiniidae	LROB1	Marine
+CCIR1	3	Cirratulus cirratus	Annelida	Polychaeta'	Terebellida	Cirratulidae	CCIR1	Marine
+MVUL	4	Metaphire vulgaris	Annelida	Clitellata	Crassiclitellata	Megascolecidae	MVUL	Terrestrial
+EAND	5	Eisenia andrei	Annelida	Clitellata	Crassiclitellata	Lumbricidae	EAND	Terrestrial
+PECH	6	Paraescarpia echinospica	Annelida	Polychaeta'	Sabellida	Siboglinidae	PECH	Marine
+CMAT	7	Carpetania matritensis	Annelida	Clitellata	Crassiclitellata	Hormogastridae	CMAT	Terrestrial
+NNAJ	8	Norana najaformis	Annelida	Clitellata	Crassiclitellata	Hormogastridae	NNAJ	Terrestrial
+LEYZ1	9	Lepidonotopodium sp. 	Annelida	Polychaeta'	Phyllodocida	Polynoidae	LEYZ1	Marine
+LIOC1	10	Laetmonice cf. iocasica	Annelida	Polychaeta'	Phyllodocida	Aphroditidae	LIOC1	Marine
+COCO1	11	Arenicola marina 	Annelida	Polychaeta'		Arenicolidae	COCO2	Marine
+WPIG	12	Whitmania pigra	Annelida	Clitellata	Arhynchobdellida	Haemopidae	WPIG	Freshwater
+HNIP	13	Hirudo nipponia	Annelida	Clitellata	Arhynchobdellida	Hirudinidae	HNIP	Freshwater
+HMED1	14	Hirudo medicinalis	Annelida	Clitellata	Arhynchobdellida	Hirudinidae	HMED2	Freshwater
+SBEN	15	Streblospio benedicti	Annelida	Polychaeta'	Spionida	Spionidae	SBEN	Marine
+TMUC1	16	Thoracophelia mucronata	Annelida	Polychaeta'		Opheliidae 	TMUC1	Marine
+CTEL	17	Capitella teleta	Annelida	Polychaeta'		Capitellidae 	CTEL	Marine
+NROB1	18	Neoamphitrite robusta	Annelida	Polychaeta'	Terebellida	Terebellidae	NROB1	Marine
+LLON	19	Lineus longissimus	Nemertea	Pilidiophora	Heteronemertea	Lineidae	LLON	Marine
+PMAX	20	Pecten maximus	Mollusca	Bivalvia	Pectinida	Pectinidae	PMAX	Marine
+SNUD1	21	Sipunculus nudus	Annelida		Sipuncula	Sipunculidae	SNUD1	Marine
+HCAR1	22	Hermodice carunculata	Annelida		Amphinomida	Amphinomidae	HCAR1	Marine
+OXIA1	23	Ophryotrocha xiamen	Annelida	Polychaeta'	Eunicida	Dorvilleidae	OXIA1	Marine
+AVIR1	24	Alitta virens	Annelida	Polychaeta'	Phyllodocida	Nereididae	AVIR1	Marine
+SYGR1	25	Syllis gracilis	Annelida	Polychaeta'	Phyllodocida	Syllidae	SYGR1	Marine
+HINV1	26	Hypania invalida	Annelida	Polychaeta'	Terebellida	Ampharetidae	HINV1	Marine
+PMEY1	27	Parvidrilus meyssonnieri	Annelida	Clitellata	Parvidrilida	Parvidrilidae	PMEY1	Freshwater
+AUJA1	28	Aulodrilus japonicus	Annelida	Clitellata	Tubificida	Naididae	AUJA1	Freshwater
+PHRE1	29	Phreodrilidae sp. 	Annelida	Clitellata	Tubificida	Phreodrilidae	PHRE1	Freshwater
+PVOL1	30	Propappus volki	Annelida	Clitellata	Enchytraeida	Propappidae	PVOL1	Freshwater
+ECRY	31	Enchytraeus crypticus	Annelida	Clitellata	Enchytraeida	Enchytraeidae	ECRY	Terrestrial
+HMAN	32	Hirudinaria manillensis	Annelida	Clitellata	Arhynchobdellida	Cylicobdellidae	HMAN	Freshwater
+TSTR1	33	Trichodrilus strandi	Annelida	Clitellata	Lumbriculida	Lumbriculidae	TSTR1	Freshwater
+PELO1	34	Pelodrilus sp. 	Annelida	Clitellata	Haplotaxida	Haplotaxidae	PELO1	Freshwater
+OFUS	35	Owenia fusiformis	Annelida	Polychaeta'		Oweniidae	OFUS	Marine
+MPIT1	36	Magelona pitelkai	Annelida	Polychaeta'		Magelonidae	MPIT1	Marine
+MMIN1	37	Mesochaetopterus minutus	Annelida	Polychaeta'		Chaetopteridae	MMIN1	Marine
+RAND1	38	Randiella sp. 	Annelida	Clitellata	Randiellida	Randiellidae	RAND1	Marine
