@@ -46,7 +46,7 @@ if __name__ == "__main__":
             elements = file.read().splitlines()
             elements = [item.split('_')[0] for item in elements]
             count_by_sp = Counter(elements)
-            total_count = len(elements)
+            total_count = len(count_by_sp)
             if total_count > score:
                 print(HOG, 'has passed the filtering.', HOG, 'has been saved in retained_HOGs.txt')
                 with open('retained_HOGs.txt', 'a') as ret:
