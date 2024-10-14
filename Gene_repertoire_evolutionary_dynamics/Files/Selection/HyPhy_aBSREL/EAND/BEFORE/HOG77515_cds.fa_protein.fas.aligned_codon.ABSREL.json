@@ -1,0 +1,662 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds support for SRV",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.3"
+  },
+ "branch attributes":{
+   "0":{
+     "AVIR1_DN20463_c0_g2_i1_p1":{
+       "Baseline MG94xREV":3.291724415600118,
+       "Baseline MG94xREV omega ratio":0.05647006821991089,
+       "Corrected P-value":null,
+       "Full adaptive model":2.867681545132273,
+       "Full adaptive model (non-synonymous subs/site)":0.7515361967728912,
+       "Full adaptive model (synonymous subs/site)":2.116145348359381,
+       "LRT":null,
+       "Nucleotide GTR":0.7695344606221841,
+       "Rate Distributions":        [
+[0, 0.3092047518498443],
+        [0.1724156334199944, 0.6907952481501557] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"AVIR1_DN20463_c0_g2_i1_p1"
+      },
+     "AVIR1_DN21478_c0_g1_i5_p1":{
+       "Baseline MG94xREV":6.271267600952908,
+       "Baseline MG94xREV omega ratio":0.0157743008358161,
+       "Corrected P-value":null,
+       "Full adaptive model":4.824412468079826,
+       "Full adaptive model (non-synonymous subs/site)":0.3885436152845545,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":null,
+       "Nucleotide GTR":0.4620846920760824,
+       "Rate Distributions":        [
+[0.0019484809889232, 0.4437926374523701],
+        [0.05125894339850681, 0.5562073625476299] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"AVIR1_DN21478_c0_g1_i5_p1"
+      },
+     "EAND_evm_TU_Chr01_515":{
+       "Baseline MG94xREV":0.2948735844667235,
+       "Baseline MG94xREV omega ratio":0.161241747125465,
+       "Corrected P-value":null,
+       "Full adaptive model":1.839562721202497,
+       "Full adaptive model (non-synonymous subs/site)":1.814446596197025,
+       "Full adaptive model (synonymous subs/site)":0.02511612500547325,
+       "LRT":null,
+       "Nucleotide GTR":0.2229260675920358,
+       "Rate Distributions":        [
+[0, 0.4429865705433588],
+        [1, 0.4612140956763285],
+        [248.0866777941245, 0.09579933378031269] 
+        ],
+       "Rate classes":3,
+       "Uncorrected P-value":null,
+       "original name":"EAND_evm_TU_Chr01_515"
+      },
+     "EAND_evm_TU_Chr02_247":{
+       "Baseline MG94xREV":1254.14709651716,
+       "Baseline MG94xREV omega ratio":3.563477711945373e-05,
+       "Corrected P-value":null,
+       "Full adaptive model":5.028909557697903,
+       "Full adaptive model (non-synonymous subs/site)":0.5930407049026337,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":null,
+       "Nucleotide GTR":0.3361779669400632,
+       "Rate Distributions":        [
+[0.003485942689905028, 0.8527785575695758],
+        [0.2843561088711206, 0.1472214424304242] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"EAND_evm_TU_Chr02_247"
+      },
+     "EAND_evm_TU_Chr05_281":{
+       "Baseline MG94xREV":0.3048698805194435,
+       "Baseline MG94xREV omega ratio":0.132304816192914,
+       "Corrected P-value":null,
+       "Full adaptive model":0.7209059904358108,
+       "Full adaptive model (non-synonymous subs/site)":0.1980397514221477,
+       "Full adaptive model (synonymous subs/site)":0.5228662390136637,
+       "LRT":null,
+       "Nucleotide GTR":0.2048911399142399,
+       "Rate Distributions":        [
+[0.03178754135850562, 0.9205146821973356],
+        [1.229942725617492, 0.07948531780266443] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"EAND_evm_TU_Chr05_281"
+      },
+     "HCAR1_DN48531_c0_g1_i1_p1":{
+       "Baseline MG94xREV":0.9986411499707794,
+       "Baseline MG94xREV omega ratio":0.0896168867170854,
+       "Corrected P-value":null,
+       "Full adaptive model":1.695883318059685,
+       "Full adaptive model (non-synonymous subs/site)":0.3390980040278442,
+       "Full adaptive model (synonymous subs/site)":1.35678531403184,
+       "LRT":null,
+       "Nucleotide GTR":0.377942726734551,
+       "Rate Distributions":        [
+[0, 0.56372522424765],
+        [0.1921213237431306, 0.43627477575235] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"HCAR1_DN48531_c0_g1_i1_p1"
+      },
+     "LIOC1_DN1495_c1_g1_i9_p1":{
+       "Baseline MG94xREV":1254.348867079698,
+       "Baseline MG94xREV omega ratio":9.152822551762914e-05,
+       "Corrected P-value":null,
+       "Full adaptive model":5.043206615258077,
+       "Full adaptive model (non-synonymous subs/site)":0.6073377624628061,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":null,
+       "Nucleotide GTR":0.6404529684261385,
+       "Rate Distributions":        [
+[0, 0.4179613639797335],
+        [0.07888988955279522, 0.5820386360202665] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"LIOC1_DN1495_c1_g1_i9_p1"
+      },
+     "Node10":{
+       "Baseline MG94xREV":1254.153324439307,
+       "Baseline MG94xREV omega ratio":3.736000423285861e-05,
+       "Corrected P-value":1,
+       "Full adaptive model":0.2822719659389645,
+       "Full adaptive model (non-synonymous subs/site)":0.2809300623618389,
+       "Full adaptive model (synonymous subs/site)":0.001341903577125509,
+       "LRT":0.1016094042279292,
+       "Nucleotide GTR":0.2392248954341544,
+       "Rate Distributions":        [
+[1, 0.7261079645858601],
+        [253.6905179048366, 0.2738920354141399] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.4351206364083804
+      },
+     "Node11":{
+       "Baseline MG94xREV":1254.109273491307,
+       "Baseline MG94xREV omega ratio":2.515723610891567e-05,
+       "Corrected P-value":1,
+       "Full adaptive model":4.402372043904689,
+       "Full adaptive model (non-synonymous subs/site)":0.1944297731614189,
+       "Full adaptive model (synonymous subs/site)":4.207942270743269,
+       "LRT":0,
+       "Nucleotide GTR":0.1813684579659587,
+       "Rate Distributions":        [
+[0.0001045653406245023, 0.7759093470721466],
+        [0.0687877288616935, 0.2240906529278534] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1
+      },
+     "Node15":{
+       "Baseline MG94xREV":1254.054541644199,
+       "Baseline MG94xREV omega ratio":9.995699988112213e-06,
+       "Corrected P-value":1,
+       "Full adaptive model":4.45015513487545,
+       "Full adaptive model (non-synonymous subs/site)":0.2370194857788471,
+       "Full adaptive model (synonymous subs/site)":4.213135649096602,
+       "LRT":0,
+       "Nucleotide GTR":0.04875240659140552,
+       "Rate Distributions":        [
+[0.001436222094996158, 0.9514299620079638],
+        [0.3603130696996983, 0.04857003799203619] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1
+      },
+     "Node17":{
+       "Baseline MG94xREV":0.03195132895442786,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03716030069675522,
+       "Full adaptive model (non-synonymous subs/site)":0.03716030069675522,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":-0.001215827760461252,
+       "Nucleotide GTR":0.02751019356349095,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.5
+      },
+     "Node18":{
+       "Baseline MG94xREV":1254.046841810088,
+       "Baseline MG94xREV omega ratio":7.862731357001495e-06,
+       "Corrected P-value":1,
+       "Full adaptive model":0.08694637745847419,
+       "Full adaptive model (non-synonymous subs/site)":0.05977572166900888,
+       "Full adaptive model (synonymous subs/site)":0.02717065578946537,
+       "LRT":0.159118341289286,
+       "Nucleotide GTR":0.03313354038234216,
+       "Rate Distributions":        [
+[0, 0.898547595160806],
+        [7.272503454819069, 0.101452404839194] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.4150509196285674
+      },
+     "Node21":{
+       "Baseline MG94xREV":1254.188767903151,
+       "Baseline MG94xREV omega ratio":4.717837115699292e-05,
+       "Corrected P-value":1,
+       "Full adaptive model":4.781556639265593,
+       "Full adaptive model (non-synonymous subs/site)":0.3456877864703205,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":0,
+       "Nucleotide GTR":0.3386977190201773,
+       "Rate Distributions":        [
+[0.0005871281730801269, 0.6909871830348172],
+        [0.08326375425812049, 0.3090128169651828] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1
+      },
+     "Node24":{
+       "Baseline MG94xREV":1254.645142664479,
+       "Baseline MG94xREV omega ratio":0.0001736009714187982,
+       "Corrected P-value":1,
+       "Full adaptive model":5.564874564015268,
+       "Full adaptive model (non-synonymous subs/site)":1.129005711219997,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":0,
+       "Nucleotide GTR":1.112726128494569,
+       "Rate Distributions":        [
+[0, 0.2542034125757329],
+        [0.1144507450767368, 0.7457965874242671] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1
+      },
+     "Node3":{
+       "Baseline MG94xREV":1254.144075482038,
+       "Baseline MG94xREV omega ratio":3.479790543452494e-05,
+       "Corrected P-value":1,
+       "Full adaptive model":4.635340689177211,
+       "Full adaptive model (non-synonymous subs/site)":0.1994718363819393,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":0,
+       "Nucleotide GTR":0.1988913066207581,
+       "Rate Distributions":        [
+[0, 0.693077882590071],
+        [0.04913560156384289, 0.306922117409929] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1
+      },
+     "Node4":{
+       "Baseline MG94xREV":1254.177186290488,
+       "Baseline MG94xREV omega ratio":4.397009210207795e-05,
+       "Corrected P-value":1,
+       "Full adaptive model":3.966260176231385,
+       "Full adaptive model (non-synonymous subs/site)":0.4291904222474021,
+       "Full adaptive model (synonymous subs/site)":3.537069753983982,
+       "LRT":0,
+       "Nucleotide GTR":0.2144966349460874,
+       "Rate Distributions":        [
+[0, 0.6678725569522025],
+        [0.1225245765115389, 0.3321274430477975] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1
+      },
+     "Node8":{
+       "Baseline MG94xREV":1254.042494613975,
+       "Baseline MG94xREV omega ratio":6.658493342400502e-06,
+       "Corrected P-value":1,
+       "Full adaptive model":0.07909074183579987,
+       "Full adaptive model (non-synonymous subs/site)":0.05959029965174221,
+       "Full adaptive model (synonymous subs/site)":0.01950044218405787,
+       "LRT":0.278899631324748,
+       "Nucleotide GTR":0.09063181907031304,
+       "Rate Distributions":        [
+[0.1624737632073071, 0.9671438524282133],
+        [26.40895478851886, 0.03285614757178668] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.3804356714639854
+      },
+     "Node9":{
+       "Baseline MG94xREV":0.08370421097686,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.2418886348696587,
+       "Full adaptive model (non-synonymous subs/site)":0.2206824056162954,
+       "Full adaptive model (synonymous subs/site)":0.02120622925336332,
+       "LRT":-0.1573064521944616,
+       "Nucleotide GTR":0.1064033572292202,
+       "Rate Distributions":        [
+[0, 0.05111441672166609],
+        [0, 0.7880758242910422],
+        [21.70268321453119, 0.1608097589872917] 
+        ],
+       "Rate classes":3,
+       "Uncorrected P-value":0.5
+      },
+     "PELO1_DN18586_c0_g3_i4_p1":{
+       "Baseline MG94xREV":1254.287662938891,
+       "Baseline MG94xREV omega ratio":7.457376772720083e-05,
+       "Corrected P-value":null,
+       "Full adaptive model":1.124644278258926,
+       "Full adaptive model (non-synonymous subs/site)":0.6029331597781086,
+       "Full adaptive model (synonymous subs/site)":0.5217111184808171,
+       "LRT":null,
+       "Nucleotide GTR":0.5154690401215493,
+       "Rate Distributions":        [
+[0.04247769634953095, 0.6395888930129803],
+        [1, 0.3604111069870198] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"PELO1_DN18586_c0_g3_i4_p1"
+      },
+     "PELO1_DN8381_c0_g2_i2_p1":{
+       "Baseline MG94xREV":1.818729475984794,
+       "Baseline MG94xREV omega ratio":0.04525007683132601,
+       "Corrected P-value":null,
+       "Full adaptive model":1.512700323759068,
+       "Full adaptive model (non-synonymous subs/site)":0.3755118373693948,
+       "Full adaptive model (synonymous subs/site)":1.137188486389673,
+       "LRT":null,
+       "Nucleotide GTR":0.4386797181796127,
+       "Rate Distributions":        [
+[0.009317416371704818, 0.6400814345807124],
+        [0.2911163922852441, 0.3599185654192876] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"PELO1_DN8381_c0_g2_i2_p1"
+      },
+     "PVOL1_DN7126_c0_g1_i1_p1":{
+       "Baseline MG94xREV":0.06054903184285106,
+       "Baseline MG94xREV omega ratio":0.6316723378625292,
+       "Corrected P-value":null,
+       "Full adaptive model":0.03018639564447711,
+       "Full adaptive model (non-synonymous subs/site)":0.03018639564447711,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.08892332369757991,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"PVOL1_DN7126_c0_g1_i1_p1"
+      },
+     "PVOL1_DN7126_c0_g2_i1_p1":{
+       "Baseline MG94xREV":0.1405297959671764,
+       "Baseline MG94xREV omega ratio":0.03039682034272122,
+       "Corrected P-value":null,
+       "Full adaptive model":0.1959586884031291,
+       "Full adaptive model (non-synonymous subs/site)":0.03307699835239367,
+       "Full adaptive model (synonymous subs/site)":0.1628816900507355,
+       "LRT":null,
+       "Nucleotide GTR":0.07332082895589745,
+       "Rate Distributions":        [
+[0.002878686758652746, 0.939572471694461],
+        [1.082283237985832, 0.06042752830553899] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"PVOL1_DN7126_c0_g2_i1_p1"
+      },
+     "SBEN_Sbene_G08397":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004392238318045655,
+       "Full adaptive model (non-synonymous subs/site)":0.004392238318045655,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.01091822987364773,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"SBEN_Sbene_G08397"
+      },
+     "SBEN_Sbene_G24217":{
+       "Baseline MG94xREV":0.02486415982894668,
+       "Baseline MG94xREV omega ratio":0.4927398944909959,
+       "Corrected P-value":null,
+       "Full adaptive model":0.09563461188776784,
+       "Full adaptive model (non-synonymous subs/site)":0.08739404941234802,
+       "Full adaptive model (synonymous subs/site)":0.008240562475420416,
+       "LRT":null,
+       "Nucleotide GTR":0.01464375472920686,
+       "Rate Distributions":        [
+[0.2301542447729557, 0.9889570045783506],
+        [301.4654873070114, 0.01104299542164944] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"SBEN_Sbene_G24217"
+      },
+     "TSTR1_DN6596_c0_g2_i1_p1":{
+       "Baseline MG94xREV":1254.300495616223,
+       "Baseline MG94xREV omega ratio":7.812861031300133e-05,
+       "Corrected P-value":null,
+       "Full adaptive model":4.919458427314905,
+       "Full adaptive model (non-synonymous subs/site)":0.4835895745196337,
+       "Full adaptive model (synonymous subs/site)":4.435868852795271,
+       "LRT":null,
+       "Nucleotide GTR":0.5735564267507075,
+       "Rate Distributions":        [
+[0, 0.4486684725264253],
+        [0.06631426779935171, 0.5513315274735747] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"TSTR1_DN6596_c0_g2_i1_p1"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":45348.87685120191,
+     "Equilibrium frequencies":      [
+[0.03484523884277829],
+      [0.02202915747408169],
+      [0.02409328337609732],
+      [0.02784042362026121],
+      [0.02164696230189439],
+      [0.01368520800031113],
+      [0.01496750816731247],
+      [0.01729534997007107],
+      [0.01575692434301451],
+      [0.009961526429066133],
+      [0.0108949186729611],
+      [0.01258936552684433],
+      [0.02235358743459204],
+      [0.0141319363580525],
+      [0.01545609484739158],
+      [0.0178599247495349],
+      [0.02740652214198149],
+      [0.01732640131430016],
+      [0.01894988027774407],
+      [0.02189708584962011],
+      [0.01702579667513063],
+      [0.0107637074255808],
+      [0.01177226380477957],
+      [0.01360316093819255],
+      [0.01239315643221238],
+      [0.007834952599348206],
+      [0.008569085469404941],
+      [0.009901803991694135],
+      [0.01758157238476886],
+      [0.01111506878898346],
+      [0.01215654762978887],
+      [0.01404721102101718],
+      [0.03279676121406871],
+      [0.02073411006549349],
+      [0.0226768903870642],
+      [0.02620374420999158],
+      [0.02037438333622774],
+      [0.01288068367033413],
+      [0.0140876001323408],
+      [0.01627859305661584],
+      [0.0148306082066961],
+      [0.009375909434738362],
+      [0.01025442952984259],
+      [0.0118492634498361],
+      [0.02103946747726377],
+      [0.01330114981615403],
+      [0.01454746383857711],
+      [0.01680997768316714],
+      [0.0193837432030247],
+      [0.02449715213818283],
+      [0.01904744468231048],
+      [0.01204179314938],
+      [0.0131701058038968],
+      [0.01521840419093349],
+      [0.00876527713047323],
+      [0.009586581149232998],
+      [0.0110775470531941],
+      [0.01966921335998822],
+      [0.01243487526240025],
+      [0.01360001960110918],
+      [0.01571518090864985] 
+      ],
+     "Log Likelihood":-22610.05666915423,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0.0001736009714187982,
+         "97.5%":9.995699988112213e-06,
+         "Mean":416666666.7773388,
+         "Median":5000000000.000012
+        }
+      },
+     "display order":1,
+     "estimated parameters":64
+    },
+   "Full adaptive model":{
+     "AIC-c":44711.36340738513,
+     "Log Likelihood":-22242.51514456269,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":112
+    },
+   "Nucleotide GTR":{
+     "AIC-c":47658.1244352342,
+     "Equilibrium frequencies":      [
+[0.3109613404474398],
+      [0.2306468220537302],
+      [0.2188055789572217],
+      [0.2395862585416082] 
+      ],
+     "Log Likelihood":-23796.0280644453,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.7365846641728087,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.5176300767406796,
+       "Substitution rate from nucleotide C to nucleotide G":0.57180674771954,
+       "Substitution rate from nucleotide C to nucleotide T":0.8830967891968732,
+       "Substitution rate from nucleotide G to nucleotide T":0.3752424273147529
+      },
+     "display order":0,
+     "estimated parameters":33
+    }
+  },
+ "input":{
+   "file name":"/mnt/disk2/Earthworms/aBSREL/EAND/BEFORE/HOG77515_cds.fa_protein.fas.aligned_codon",
+   "number of sequences":14,
+   "number of sites":783,
+   "partition count":1,
+   "trees":{
+     "0":"(((AVIR1_DN20463_c0_g2_i1_p1:1.66819,AVIR1_DN21478_c0_g1_i5_p1:0.928342)Node4:0.375172,LIOC1_DN1495_c1_g1_i9_p1:1.24172)Node3:0.38493,((((EAND_evm_TU_Chr01_515:0.224783,EAND_evm_TU_Chr05_281:0.15338)Node11:0.213675,EAND_evm_TU_Chr02_247:0.29203)Node10:0.335333,(PELO1_DN18586_c0_g3_i4_p1:0.6929999999999999,((PELO1_DN8381_c0_g2_i2_p1:0.593032,TSTR1_DN6596_c0_g2_i1_p1:0.79132)Node18:0.0918597,(PVOL1_DN7126_c0_g2_i1_p1:0.0207569,PVOL1_DN7126_c0_g1_i1_p1:0.109319)Node21:0.392795)Node17:0.08424760000000001)Node15:0.08625670000000001)Node9:0.14829,(SBEN_Sbene_G08397:2.8085e-06,SBEN_Sbene_G24217:0.024758)Node24:2.06611)Node8:0.09308719999999999,HCAR1_DN48531_c0_g1_i1_p1:0.254765)"
+    }
+  },
+ "runtime":"2.5.42",
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":11
+  },
+ "tested":{
+   "0":{
+     "AVIR1_DN20463_c0_g2_i1_p1":"background",
+     "AVIR1_DN21478_c0_g1_i5_p1":"background",
+     "EAND_evm_TU_Chr01_515":"background",
+     "EAND_evm_TU_Chr02_247":"background",
+     "EAND_evm_TU_Chr05_281":"background",
+     "HCAR1_DN48531_c0_g1_i1_p1":"background",
+     "LIOC1_DN1495_c1_g1_i9_p1":"background",
+     "Node10":"test",
+     "Node11":"test",
+     "Node15":"test",
+     "Node17":"test",
+     "Node18":"test",
+     "Node21":"test",
+     "Node24":"test",
+     "Node3":"test",
+     "Node4":"test",
+     "Node8":"test",
+     "Node9":"test",
+     "PELO1_DN18586_c0_g3_i4_p1":"background",
+     "PELO1_DN8381_c0_g2_i2_p1":"background",
+     "PVOL1_DN7126_c0_g1_i1_p1":"background",
+     "PVOL1_DN7126_c0_g2_i1_p1":"background",
+     "SBEN_Sbene_G08397":"background",
+     "SBEN_Sbene_G24217":"background",
+     "TSTR1_DN6596_c0_g2_i1_p1":"background"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":20
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":89
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":164
+    },
+   "Overall":{
+     "order":0,
+     "timer":431
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":0
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":157
+    }
+  }
+}
