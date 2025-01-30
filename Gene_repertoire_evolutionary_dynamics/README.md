@@ -404,7 +404,7 @@ if __name__ == "__main__":
         
         names = {}
         for line in lines:
-            #parts = line.strip().split('_') las seqs de Carlos tienen otro formato en el nombre
+            #parts = line.strip().split('_') considering the format in the name of sequences
             parts = line.strip().split('.')
             if len(parts) > 1:
                 name = parts[0]
@@ -573,7 +573,8 @@ if __name__ == "__main__":
         # Read the contents of the txt file
         with open(file_path, 'r') as file:
             elements = file.read().splitlines()
-            elements = [item.split('_')[0] for item in elements]
+            #elements = [item.split('_')[0] for item in elements] #considering the format in the name of sequences
+            elements = [item.split('.')[0] for item in elements]
             count_by_sp = Counter(elements)
             total_count = len(count_by_sp)
             if total_count > score:
